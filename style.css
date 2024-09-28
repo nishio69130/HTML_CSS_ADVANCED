@@ -77,3 +77,39 @@ header {
     right: 0;
     z-index: 10;
 }
+
+h2 {
+    margin: 40px;
+}
+
+h2::after {
+    content: url(images/line.png);
+    margin-left: 10px;
+
+}
+
+h3 {
+    size: 27px;
+}
+
+#mission {
+    margin: 80px auto 80px auto;
+}
+
+#mission-flex {
+    display: flex;
+}
+
+#mission-flex > div {
+    width: 50%;
+    margin: 20px;
+}
+
+#mission-photo {
+    width: 100%;
+}
+
+#s2dgs {
+    margin-top: 50px;
+    width: 100%;
+}
